@@ -8,3 +8,4 @@ The Data Acquisition System (DAQ) is responsible for the collection and transmis
 * 1x PDM [[PDM DAQ Integration]]
 * 1x Raspi CM5 Central Node [[DAQ Central Node (Raspi)]]
 * 1x Omni Directional Antenna [[DAQ Wireless Transmission]]
+* Sensors [[DAQ Sensors]]
