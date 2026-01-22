@@ -1,4 +1,4 @@
-## Electrical Systems: [[Overview]]
+## Electrical Systems: [[Electrical Systems Overview]]
 ## Tractive Battery: 
 ## Powertrain: 
 ## Manufacturing: 
