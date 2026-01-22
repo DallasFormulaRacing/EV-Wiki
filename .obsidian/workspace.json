@@ -213,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d4d146e554cfbba",
+  "active": "eb2f1178db92944f",
   "lastOpenFiles": [
     "EV 2026/List of Subteams.md",
     "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
