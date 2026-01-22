@@ -207,19 +207,9 @@
               "icon": "lucide-list",
               "title": "Outline of !BMS Overview"
             }
-          },
-          {
-            "id": "71879cd0508aead6",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -239,7 +229,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb2f1178db92944f",
+  "active": "8d4d146e554cfbba",
   "lastOpenFiles": [
     "EV 2026/List of Subteams.md",
     "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
