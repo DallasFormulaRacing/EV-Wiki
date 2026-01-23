@@ -183,8 +183,7 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "publish:Publish changes...": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false
+      "markdown-importer:Open format converter": false
     }
   },
   "active": "66fe9e7cb4771786",
