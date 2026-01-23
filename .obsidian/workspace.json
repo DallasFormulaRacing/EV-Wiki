@@ -15,56 +15,14 @@
               "state": {
                 "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "!BMS Overview"
             }
-          },
-          {
-            "id": "2c6824315f173d41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EV 2026/List of Subteams.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "List of Subteams"
-            }
-          },
-          {
-            "id": "443005b4cea0d16c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "!DAQ Overview"
-            }
-          },
-          {
-            "id": "eb2f1178db92944f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EV 2026/List of Subteams.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "List of Subteams"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,7 +175,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "system3-relay:Relay": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -230,8 +187,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c6824315f173d41",
+  "active": "66fe9e7cb4771786",
   "lastOpenFiles": [
+    "EV 2026/List of Subteams.md",
+    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+    "EV 2026/Electrical Systems/PDM/PDM DAQ Integration.md",
     "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
     "EV 2026/Electrical Systems/VCU/VCU DAQ Integration.md",
     "EV 2026/Electrical Systems/VCU/VCU BSE.md",
@@ -240,18 +200,15 @@
     "EV 2026/Electrical Systems/Shutdown Circuit/!Shutdown Circuit Overview.md",
     "EV 2026/Electrical Systems/PDM/!PDM Overview.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Sensors.md",
-    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Wheel Nodes.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Wireless Transmission.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Ride height node.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Dash node and display.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Central Node (Raspi).md",
     "README.md",
-    "EV 2026/List of Subteams.md",
     "EV 2026/Electrical Systems/VCU/VCU Inverter Integration.md",
     "EV 2026/Electrical Systems/VCU/VCU Precharge.md",
     "EV 2026/Electrical Systems/Motor and Inverter/!Motor and Inverter Overview.md",
-    "EV 2026/Electrical Systems/PDM/PDM DAQ Integration.md",
     "EV 2026/Electrical Systems/VCU/VCU BMS Integration.md",
     "EV 2026/Electrical Systems/!Electrical Systems Overview.md",
     "EV 2026/Electrical Systems/Motor and Inverter",
