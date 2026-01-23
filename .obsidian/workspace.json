@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!DAQ Overview"
+              "title": "!BMS Overview"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "file": "EV 2026/List of Subteams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!DAQ Overview"
+              "title": "List of Subteams"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "file": "EV 2026/List of Subteams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!BMS Overview"
+              "title": "List of Subteams"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for !BMS Overview"
+              "title": "Backlinks for !DAQ Overview"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from !BMS Overview"
+              "title": "Outgoing links from !DAQ Overview"
             }
           },
           {
@@ -199,24 +199,25 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of !BMS Overview"
+              "title": "Outline of !DAQ Overview"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "system3-relay:Relay": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -229,30 +230,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb2f1178db92944f",
+  "active": "2c6824315f173d41",
   "lastOpenFiles": [
-    "EV 2026/List of Subteams.md",
-    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
-    "EV 2026/Electrical Systems/DAQ/DAQ Wireless Transmission.md",
-    "EV 2026/Electrical Systems/DAQ/DAQ Wheel Nodes.md",
+    "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+    "EV 2026/Electrical Systems/VCU/VCU DAQ Integration.md",
+    "EV 2026/Electrical Systems/VCU/VCU BSE.md",
+    "EV 2026/Electrical Systems/VCU/VCU APPS.md",
+    "EV 2026/Electrical Systems/VCU/!VCU Overview.md",
+    "EV 2026/Electrical Systems/Shutdown Circuit/!Shutdown Circuit Overview.md",
+    "EV 2026/Electrical Systems/PDM/!PDM Overview.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Sensors.md",
+    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+    "EV 2026/Electrical Systems/DAQ/DAQ Wheel Nodes.md",
+    "EV 2026/Electrical Systems/DAQ/DAQ Wireless Transmission.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Ride height node.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Dash node and display.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Central Node (Raspi).md",
     "README.md",
+    "EV 2026/List of Subteams.md",
     "EV 2026/Electrical Systems/VCU/VCU Inverter Integration.md",
-    "EV 2026/Electrical Systems/VCU/VCU DAQ Integration.md",
     "EV 2026/Electrical Systems/VCU/VCU Precharge.md",
-    "EV 2026/Electrical Systems/VCU/VCU BSE.md",
-    "EV 2026/Electrical Systems/Shutdown Circuit/!Shutdown Circuit Overview.md",
-    "EV 2026/Electrical Systems/PDM/!PDM Overview.md",
     "EV 2026/Electrical Systems/Motor and Inverter/!Motor and Inverter Overview.md",
     "EV 2026/Electrical Systems/PDM/PDM DAQ Integration.md",
-    "EV 2026/Electrical Systems/VCU/!VCU Overview.md",
     "EV 2026/Electrical Systems/VCU/VCU BMS Integration.md",
-    "EV 2026/Electrical Systems/VCU/VCU APPS.md",
     "EV 2026/Electrical Systems/!Electrical Systems Overview.md",
-    "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
     "EV 2026/Electrical Systems/Motor and Inverter",
     "EV 2026/Electrical Systems/Shutdown Circuit",
     "EV 2026/Electrical Systems/PDM",
