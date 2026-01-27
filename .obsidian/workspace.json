@@ -13,16 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
+                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": false
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "EV26 BMS Testing PCB"
+              "title": "!DAQ Overview"
+            }
+          },
+          {
+            "id": "2c6824315f173d41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!DAQ Overview"
+            }
+          },
+          {
+            "id": "443005b4cea0d16c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!DAQ Overview"
+            }
+          },
+          {
+            "id": "eb2f1178db92944f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!BMS Overview"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 537.5
+    "width": 300
   },
   "right": {
     "id": "124cf3c37eb8cb6b",
@@ -95,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for !DAQ Overview"
+              "title": "Backlinks for !BMS Overview"
             }
           },
           {
@@ -114,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from !DAQ Overview"
+              "title": "Outgoing links from !BMS Overview"
             }
           },
           {
@@ -157,25 +199,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of !DAQ Overview"
+              "title": "Outline of !BMS Overview"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -184,47 +225,41 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "publish:Publish changes...": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66fe9e7cb4771786",
+  "active": "eb2f1178db92944f",
   "lastOpenFiles": [
+    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
+    "EV 2026/Electrical Systems/BMS/BMS Assets/image.png",
     "EV 2026/Electrical Systems/BMS/BMS Assets/image-3.png",
     "EV 2026/Electrical Systems/BMS/BMS Assets/image-2.png",
-    "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
-    "EV 2026/Electrical Systems/BMS/BMS Assets/image.png",
     "EV 2026/Electrical Systems/BMS/BMS Assets/image-1.png",
-    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
     "EV 2026/Electrical Systems/BMS/BMS Assets/BMS Testing PCB Diagram.png",
-    "EV 2026/Electrical Systems/BMS/Assets/image.png",
-    "EV 2026/Electrical Systems/BMS/Pasted image 20260126220536.png",
     "EV 2026/Electrical Systems/BMS/BMS Assets",
-    "EV 2026/Electrical Systems/BMS/Assets",
-    "EV 2026/Electrical Systems/BMS/image-1.png",
-    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB-1769487356156.png",
-    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB-1769487274740.png",
-    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB-1769487137590.png",
-    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
     "EV 2026/List of Subteams.md",
-    "EV 2026/Electrical Systems/PDM/PDM DAQ Integration.md",
-    "EV 2026/Electrical Systems/VCU/VCU DAQ Integration.md",
-    "EV 2026/Electrical Systems/VCU/VCU BSE.md",
-    "EV 2026/Electrical Systems/VCU/VCU APPS.md",
-    "EV 2026/Electrical Systems/VCU/!VCU Overview.md",
-    "EV 2026/Electrical Systems/Shutdown Circuit/!Shutdown Circuit Overview.md",
-    "EV 2026/Electrical Systems/PDM/!PDM Overview.md",
-    "EV 2026/Electrical Systems/DAQ/DAQ Sensors.md",
-    "EV 2026/Electrical Systems/DAQ/DAQ Wheel Nodes.md",
+    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Wireless Transmission.md",
+    "EV 2026/Electrical Systems/DAQ/DAQ Wheel Nodes.md",
+    "EV 2026/Electrical Systems/DAQ/DAQ Sensors.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Ride height node.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Dash node and display.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Central Node (Raspi).md",
     "README.md",
     "EV 2026/Electrical Systems/VCU/VCU Inverter Integration.md",
+    "EV 2026/Electrical Systems/VCU/VCU DAQ Integration.md",
     "EV 2026/Electrical Systems/VCU/VCU Precharge.md",
+    "EV 2026/Electrical Systems/VCU/VCU BSE.md",
+    "EV 2026/Electrical Systems/Shutdown Circuit/!Shutdown Circuit Overview.md",
+    "EV 2026/Electrical Systems/PDM/!PDM Overview.md",
     "EV 2026/Electrical Systems/Motor and Inverter/!Motor and Inverter Overview.md",
+    "EV 2026/Electrical Systems/PDM/PDM DAQ Integration.md",
+    "EV 2026/Electrical Systems/VCU/!VCU Overview.md",
     "EV 2026/Electrical Systems/VCU/VCU BMS Integration.md",
+    "EV 2026/Electrical Systems/VCU/VCU APPS.md",
     "EV 2026/Electrical Systems/!Electrical Systems Overview.md",
+    "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
     "EV 2026/Electrical Systems/Motor and Inverter",
     "EV 2026/Electrical Systems/Shutdown Circuit",
     "EV 2026/Electrical Systems/PDM",
