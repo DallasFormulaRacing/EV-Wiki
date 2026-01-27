@@ -7,6 +7,7 @@ The Segment PCB has 2 Molex FFC (Flat Flexible Cable) connectors, these two conn
 	- Cable used between segment and testing pcb: [1.25mm Pitch Premo-Flex FFC Jumper](https://www.molex.com/en-us/products/part-detail/151680255), Same Side Contacts, cable length TBD
 
 ## Block Diagram
+
 ![[image-1.png]]
 ![[EV26 BMS Testing PCB-1769487274740.png]]
 
