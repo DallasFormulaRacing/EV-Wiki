@@ -11,12 +11,15 @@
             "id": "66fe9e7cb4771786",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/Pasted image 20260126220536.png"
+                "file": "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260126220536"
+              "icon": "lucide-file",
+              "title": "EV26 BMS Testing PCB"
             }
           }
         ]
@@ -184,10 +187,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "afc9c4b7da7c4e81",
+  "active": "66fe9e7cb4771786",
   "lastOpenFiles": [
-    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
     "EV 2026/Electrical Systems/BMS/Pasted image 20260126220536.png",
+    "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
     "EV 2026/Electrical Systems/BMS/Pasted image 20260126220519.png",
     "EV 2026/Electrical Systems/BMS/Pasted image 20260126220456.png",
     "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
