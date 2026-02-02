@@ -38,7 +38,7 @@ CMD_ID_SET_OFFSET = 0x103
 ```
 
 
-Building a command table is really up to the developer. I could think of a trillion ways to toggle an led. You could have a general Update System command with each bit in the data field turning something on or off, or have individual "turn led on" or "turn led off" commands with an empty data field. I would stray away from the latter implementation, and instead but actual configuration data in the data field so we arent running out of commands and can keep commands unique but to each their own.
+Building a command table is really up to the developer. I could think of a trillion ways to toggle an led. You could have a general Update System command with each bit in the data field turning something on or off, or have individual "turn led on" or "turn led off" commands with an empty data field. I would stray away from the latter implementation, and instead but actual configuration data in the data field so we aren't running out of commands and can keep commands unique but to each their own.
 
 ```c
 typedef enum {
@@ -69,3 +69,18 @@ NODE_ID_UNKNOWN = 0x00
 ```
 
 To map devices to CAN ID's, each device should have a table like above. This makes your code readable by being able to see which devices you are sending messages to without having to go look up the table and map the id every time.
+
+I think thats all we need to make our CAN messages now! Heres a macro I use to properly create CAN ID's while taking care of C bit shifts and proper endian-ness:
+```c
+
+#define BUILD_CAN_ID(priority, target, cmd, source) \
+
+((((uint32_t)(priority) & 0x07) << 26) | \
+
+(((uint32_t)(target) & 0x1F) << 21) | \
+
+(((uint32_t)(cmd) & 0xFFFF) << 5) | \
+
+(((uint32_t)(source) & 0x1F)))
+
+```
