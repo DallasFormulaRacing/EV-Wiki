@@ -37,4 +37,35 @@ CMD_ID_SET_OFFSET = 0x103
 } CommandID_t;
 ```
 
-Building a command table
+
+Building a command table is really up to the developer. I could think of a trillion ways to toggle an led. You could have a general Update System command with each bit in the data field turning something on or off, or have individual "turn led on" or "turn led off" commands with an empty data field. I would stray away from the latter implementation, and instead but actual configuration data in the data field so we arent running out of commands and can keep commands unique but to each their own.
+
+```c
+typedef enum {
+
+NODE_ID_ALL_NODES = 0x01, // 00001 (Broadcast)
+
+NODE_ID_FRONT_LEFT = 0x02, // 00001
+
+NODE_ID_FRONT_RIGHT = 0x03, // 00010
+
+NODE_ID_REAR_LEFT = 0x04, // 00011
+
+NODE_ID_REAR_RIGHT = 0x05, // 00100
+
+  
+
+NODE_ID_NUCLEO_1 = 0x06, // 01010
+
+NODE_ID_NUCLEO_2 = 0x07, // 01011
+
+NODE_ID_RASPI = 0x1E, // 11110
+
+NODE_ID_DASH = 0x1F, // 11111 (Node 31)
+
+NODE_ID_UNKNOWN = 0x00
+
+} NodeHardwareID_t;
+```
+
+To map devices to CAN ID's, each device should have a table like above. This makes your code readable by being able to see which devices you are sending messages to without having to go look up the table and map the id every time.
