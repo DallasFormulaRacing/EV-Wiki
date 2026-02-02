@@ -57,7 +57,8 @@
               "state": {
                 "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "!BMS Overview"
