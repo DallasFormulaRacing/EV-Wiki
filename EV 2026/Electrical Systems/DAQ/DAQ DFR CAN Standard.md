@@ -84,3 +84,88 @@ I think thats all we need to make our CAN messages now! Heres a macro I use to p
 (((uint32_t)(source) & 0x1F)))
 
 ```
+
+And heres how its called:
+```c
+HAL_StatusTypeDef CAN_Transmit(uint8_t priority, uint8_t target, uint32_t cmd_type, uint8_t* pData, uint32_t dlc_bytes) {
+
+	FDCAN_TxHeaderTypeDef txHeader;
+	
+	// Use the internal helper to set up fixed FD/Extended settings
+	
+	CAN_InitHeader(&txHeader);
+	
+	// Build the 29-bit ID: [Priority][Target][Command][Source]
+	
+	// self_node_id is the 'Source' established during App_Hardware_Init
+	
+	txHeader.Identifier = BUILD_CAN_ID(priority, target, cmd_type, self_node_id);
+	
+	// Set the data length (must be an FDCAN_DLC_BYTES_x macro)
+	
+	txHeader.DataLength = dlc_bytes;
+	
+	  
+	
+	return HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan2, &txHeader, pData);
+
+}
+```
+Super simple!
+
+## STM32 Self Identifying
+Imagine you want to run multiple stm32's on the car that use the same firmware. We want to use the same firmware for devices that are able in order to not have to maintain multiple versions of the same code. Since devices respond to commands with the proper response, they can share a lot of the same code. Its mainly up to the controller to determine how it uses each device by requesting the corresponding data from it. Anyways, to reuse firmware, you need some way to have each node get a unique device id (the 5 bit one mentioned above), so that multiple devices arent sharing a device id on your can line. To do this, we can make a table matching STM32 UIDs to CAN device IDs, and have each device identify itself by looking up its CAN id in the fleet table.
+```c
+static const UID_Mapping_t Fleet_Table[] = {
+
+	{{0x12345678, 0xABCDEF01, 0x55667788}, NODE_ID_FRONT_LEFT},
+	
+	{{0x87654321, 0x10FEDCBA, 0x99887766}, NODE_ID_FRONT_RIGHT},
+	
+	{{0x11223344, 0x55667788, 0x99AABBCC}, NODE_ID_REAR_LEFT},
+	
+	{{0x44332211, 0x88776655, 0xCCBBAA99}, NODE_ID_REAR_RIGHT},
+	
+	{{0x001E005F, 0x33335101, 0x32313831}, NODE_ID_NUCLEO_1},
+	
+	{{0x4D3C2B1A, 0x80706050, 0x40302010}, NODE_ID_NUCLEO_2},
+	
+	{{0xDEADBEEF, 0xCAFEBABE, 0xFEEDFACE}, NODE_ID_DASH}
+
+};
+
+  
+
+NodeHardwareID_t self_node_id = NODE_ID_UNKNOWN;
+
+  
+
+void Identify_Self(void) {
+
+	uint32_t current_uid[3];
+	
+	current_uid[0] = HAL_GetUIDw0();
+	
+	current_uid[1] = HAL_GetUIDw1();
+	
+	current_uid[2] = HAL_GetUIDw2();
+	
+	  
+	
+	for (int i = 0; i < sizeof(Fleet_Table)/sizeof(UID_Mapping_t); i++) {
+	
+		if (current_uid[0] == Fleet_Table[i].uid[0] && 
+		current_uid[1] == Fleet_Table[i].uid[1] &&
+		current_uid[2] == Fleet_Table[i].uid[2]) {
+		
+			self_node_id = Fleet_Table[i].nodeType;
+			return;
+		}
+	}
+	
+	self_node_id = NODE_ID_UNKNOWN; // Node not recognized
+
+}
+```
+
+Now you can see each device UID mapped to a CAN ID, and how each stm32 can get its unique CAN ID on startup even though they have identical firmware! Awesome
