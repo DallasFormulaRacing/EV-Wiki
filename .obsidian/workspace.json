@@ -55,13 +55,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "file": "EV 2026/Electrical Systems/DAQ/DAQ DFR CAN Standard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "!BMS Overview"
+              "title": "DAQ DFR CAN Standard"
             }
           }
         ],
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
+                "file": "EV 2026/Electrical Systems/DAQ/DAQ DFR CAN Standard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of !BMS Overview"
+              "title": "Outline of DAQ DFR CAN Standard"
             }
           }
         ],
@@ -232,6 +232,10 @@
   },
   "active": "eb2f1178db92944f",
   "lastOpenFiles": [
+    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
+    "EV 2026/Electrical Systems/DAQ/DAQ DFR CAN Standard.md",
+    "EV 2026/Electrical Systems/DAQ/DAQ Wireless Transmission.md",
+    "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
     "EV 2026/Electrical Systems/BMS/EV26 BMS Testing PCB.md",
     "EV 2026/Electrical Systems/BMS/BMS Assets/image.png",
     "EV 2026/Electrical Systems/BMS/BMS Assets/image-3.png",
@@ -240,8 +244,6 @@
     "EV 2026/Electrical Systems/BMS/BMS Assets/BMS Testing PCB Diagram.png",
     "EV 2026/Electrical Systems/BMS/BMS Assets",
     "EV 2026/List of Subteams.md",
-    "EV 2026/Electrical Systems/DAQ/!DAQ Overview.md",
-    "EV 2026/Electrical Systems/DAQ/DAQ Wireless Transmission.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Wheel Nodes.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Sensors.md",
     "EV 2026/Electrical Systems/DAQ/DAQ Ride height node.md",
@@ -260,7 +262,6 @@
     "EV 2026/Electrical Systems/VCU/VCU BMS Integration.md",
     "EV 2026/Electrical Systems/VCU/VCU APPS.md",
     "EV 2026/Electrical Systems/!Electrical Systems Overview.md",
-    "EV 2026/Electrical Systems/BMS/!BMS Overview.md",
     "EV 2026/Electrical Systems/Motor and Inverter",
     "EV 2026/Electrical Systems/Shutdown Circuit",
     "EV 2026/Electrical Systems/PDM",
