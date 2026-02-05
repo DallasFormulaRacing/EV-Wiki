@@ -173,3 +173,4 @@ Now you can see each device UID mapped to a CAN ID, and how each stm32 can get i
 ## CAN ID Filtering
 Since we now have device IDs established, we want to set up a filter so that we only read messages meant for each device. That means, we want the target field of the identifier to be our device id, so we aren't reading messages meant for other devices. This is important, since our CAN is interrupt based, we would be triggering an interrupt for every single message on the bus without a filter, and thats just wasted compute. In order to achieve this filtering, we will use a bit mask filter. It works like so:
 ### Bit mask filtering
+This works by ...
