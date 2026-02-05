@@ -4,7 +4,7 @@ List of all systems/pcbs on EV '26:
 * Segment board:
 * Controller: 
 * Charger: 
-### Data Acquisition (DAQ): [[!DAQ Overview]]
+### Data Acquisition (DAQ): [[a-daq-overview]]
 * CANpute Nodes:
 * CM5 Central Node:
 * Dash Display: 
