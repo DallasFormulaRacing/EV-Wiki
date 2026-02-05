@@ -6,7 +6,7 @@ The Segment PCB has 2 Molex FFC (Flat Flexible Cable) connectors, these two conn
 - [39-53-2084](https://www.digikey.com/en/products/detail/molex/0039532084/2405221) - 8 Pin FFC
 	- Cable used between segment and testing pcb: [1.25mm Pitch Premo-Flex FFC Jumper](https://www.molex.com/en-us/products/part-detail/151680255), Same Side Contacts, cable length TBD
 ## Block Diagram
-![[BMS Testing PCB Diagram.png]]
+![[bms-testing-diagram.png]]
 
 ## Connector Wiring
 - I designed the top and bottom PCBs to be interchangeable, but unfortunately, the wiring to both the connectors is different for both boards.

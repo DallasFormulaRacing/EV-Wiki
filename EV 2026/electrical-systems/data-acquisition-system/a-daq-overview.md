@@ -5,8 +5,8 @@ The Data Acquisition System (DAQ) is responsible for the collection and transmis
 * 1x ride height CANpute node [[daq-ride-height]]
 * 1x Dash CANpute node [[daq-dash-display]]
 * 1x Dash Display [[daq-dash-display]]
-* 1x VCU [[VCU DAQ Integration]]
+* 1x VCU [[vcu-daq-integration]]
 * 1x PDM [PDM DAQ Integration](../)
-* 1x Raspi CM5 Central Node [daq-central-node](./daq-central-node)
-* 1x Omni Directional Antenna [daq-wireless](./daq-wireless)
-* Sensors [daq-sensors](./daq-sensors)
+* 1x Raspi CM5 Central Node [daq-central-node](daq-central-node.md)
+* 1x Omni Directional Antenna [daq-wireless](daq-wireless.md)
+* Sensors [daq-sensors](daq-sensors.md)
