@@ -4,6 +4,7 @@ title: DAQ Overview
 
 ## Summary
 The Data Acquisition System (DAQ) is responsible for the collection and transmission of wanted data on the car. This will allow us to analyze car performance in multiple ways, see errors in real time, and display useful information to the driver. The DAQ is composed of the following devices:
+
 * 4x Wheel based CANpute nodes [daq-wheel-nodes](ev2026/electrical-systems/data-acquisition-system/daq-wheel-nodes.md)
 * 1x ride height CANpute node [daq-ride-height](ev2026/electrical-systems/data-acquisition-system/daq-ride-height.md)
 * 1x Dash CANpute node [daq-dash-display](ev2026/electrical-systems/data-acquisition-system/daq-dash-display.md)
