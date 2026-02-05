@@ -12,4 +12,4 @@ The Data Acquisition System (DAQ) is responsible for the collection and transmis
 * 1x PDM [pdm-daq-integration](ev2026/electrical-systems/power-delivery-module/pdm-daq-integration.md)
 * 1x Raspi CM5 Central Node [daq-central-node](ev2026/electrical-systems/data-acquisition-system/daq-central-node.md)
 * 1x Omni Directional Antenna [daq-wireless](ev2026/electrical-systems/data-acquisition-system/daq-wireless.md)
-* Sensors [daq-sensors](ev2026/electrical-systems/data-acquisition-system/daq-sensors.md)
+* Sensors
