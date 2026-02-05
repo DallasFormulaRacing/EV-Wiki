@@ -4,7 +4,7 @@ title: BMS Overview
 
 ## BMS Summary:
 
-Let's go to a software page [isoSPI](ev2026/electrical-systems/battery-management-system/software/isoSPI.md)
+Let's go to a software page [iso-spi](ev2026/electrical-systems/battery-management-system/software/iso-spi.md)
 ### Cell Balancing
 
 ### Cell Reading
