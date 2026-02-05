@@ -1,3 +1,6 @@
+---
+title: DAQ Overview
+---
 
 ## Summary
 The Data Acquisition System (DAQ) is responsible for the collection and transmission of wanted data on the car. This will allow us to analyze car performance in multiple ways, see errors in real time, and display useful information to the driver. The DAQ is composed of the following devices:

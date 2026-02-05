@@ -1,3 +1,6 @@
+---
+title: DAQ CAN standard
+---
 
 ## Overview
 The DFR CAN standard is a standardized layout for CAN(FD) frames. Its most important to have a unified consistent format for the Identifier, as the data field is just whatever data goes along with the ID.

@@ -1,3 +1,7 @@
+---
+title: BMS Testing PCB
+---
+
 ## Overview
 We will use this PCB to simulate battery cells, that can be connected to the BMS segment boards, so we can test cell readings & communications between segments.
 
