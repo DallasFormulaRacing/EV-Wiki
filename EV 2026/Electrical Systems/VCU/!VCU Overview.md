@@ -1,0 +1,30 @@
+# Tasks
+- On FDCAN1
+	- Read APPS1 and APPS2 values
+	- Read BSE
+	- Read BMS data: max providable power, SoC, SoH, Errors
+	- Read Inverter data
+	- Send torque command to inverter
+- On FDCAN2
+	- Read wheel speed from DAQ nodes
+	- Send BMS SoC and other data for DAQ/Dash
+		- Error codes go to dash!
+	- Listen for low priority errors from nodes
+- APPS Plausibility
+	- Compare APPS1 and APPS2 values, ensure they dont differ by more than 10% for more than 100ms
+	- If they do -> error state, request 0 torque from inverter
+- BSE
+	- Make sure APPS and Brakes are not activated at same time
+		- If so -> error state, request 0 torque from inverter
+- Torque Calculation
+	- Use APPS1, APPS2, BMS_MAX_POWER, and wheel speed to calculate how much instantaneous torque is needed. Translate to CAN frame and send to inverter
+- Safety Checks
+	- Only activate "connection" between APPS and inverter **AFTER** ready-to-drive signal is received from RTD circuit.
+	- Monitor BSPD, IMD safety circuit, and BMS safety circuit for errors
+		- If error, shut down all LV connections
+			- LV shutdown sequence!
+- Shut off fans at a certain car speed
+- Accumulator Relay triggering
+- Interrupt fault pins for safety devices
+- 12v High for bspd when more thank 5kw power being drawn
+- Brake pressure sensor 5v
