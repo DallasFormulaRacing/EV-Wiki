@@ -1,6 +1,6 @@
 ## BMS Summary:
 
-
+Let's go to a software page [[isoSPI]]
 ### Cell Balancing
 
 ### Cell Reading
