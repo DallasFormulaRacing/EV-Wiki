@@ -16,7 +16,7 @@ As you can see, every device on the bus must have a 5 bit id. The first 3 bits a
 ID: \[011]\[00101]\[0000000000000111]\[00001]
 ID:\[Prio: mid]\[Target: Daq Node]\[Command: toggle led]\[Source: Raspi]
 
-In order for each device to know whwat the commands and other device IDs are, we need common command tables and device registries on each device.
+In order for each device to know what the commands and other device IDs are, we need common command tables and device registries on each device.
 
 ```c
 typedef enum {
